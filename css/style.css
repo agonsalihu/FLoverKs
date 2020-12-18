@@ -22,13 +22,12 @@ body{
     width: 100%;
     padding: 1% 0%;
     min-height: 100px;
-    background-color: #f29e4c;
-    color: #A2D2FF;
+    background-color: #2D4739;
+    color: black;
 }
 
 .logo img{
-    width: 100%;
-    border-radius: 100%;
+    width: 20%;
 }
 
 a{
@@ -80,62 +79,45 @@ a{
 .portfolio{
     width: 100%;
     min-height: 100vh;
-    background-color: lightslategray;
-    height: 1200px;
+    background-color:#adc698 ;
+    height: 850px;
 }
 
 .portfolio>div{
     margin: -20px 250px 50px 250px;
     width: 60%;
     height: 200px;
+
 }
-#rownje{
+#rownje, #rowdy, #rowtre{
     display: flex;
     justify-content: space-between;
     text-align: center;
 
 }
-#rownje img{
+#rownje img, #rowdy img, #rowtre img{
+    margin-top: 40px;
     width: 180px;
     height: 200px;
     padding: 20px;
+    -webkit-box-shadow: 0 28px 16px -26px #2D4739;
+    -moz-box-shadow: 0 28px 16px -26px #2D4739;
+    box-shadow: 0 28px 16px -26px #2D4739;
     
-}
-#rowdy{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-#rowdy img{
-    
-    width: 180px;
-    height: 200px;
-    padding: 20px;
-   
-}
-#rowtre{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-#rowtre img{
- 
-    width: 180px;
-    height: 200px;
-    padding: 20px;
-   
 }
 
-.fixed-menu{
+/*
+.field-menu{
     box-shadow: 0 8px 6px -6px black;
     position: fixed;
     top:250px;
     left: 50px;
 }
 .fixed-menu table{
-    background-color: #F4BFAD;
+    background-color:#2D4739;
     border-collapse: collapse;
-    width: 150px;
+    width: 160px;
+    height: 100px;
     text-align: center;
 }
 .fixed-menu table tr td{
@@ -148,7 +130,7 @@ a{
     color: white;
 }
 .fixed-menu table tr:hover{
-    background-color:#ebb3a1;
+    background-color:#2d6a4f;
 }
 
 /*

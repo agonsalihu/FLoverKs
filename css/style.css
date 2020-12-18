@@ -22,12 +22,12 @@ body{
     width: 100%;
     padding: 1% 0%;
     min-height: 100px;
-    background-color: #F8BD4F;
-    color: black;
+    background-color: #f29e4c;
+    color: #A2D2FF;
 }
 
 .logo img{
-    width: 40%;
+    width: 100%;
     border-radius: 100%;
 }
 
@@ -75,16 +75,17 @@ a{
 #content{
     width: 100%;
     min-height: 200px;
-    
-    background-color: #f5f5f5;
 }
+/*BUQETA*/
 .portfolio{
     width: 100%;
     min-height: 100vh;
+    background-color: lightslategray;
+    height: 1200px;
 }
 
 .portfolio>div{
-    margin: 50px 250px 50px 250px;
+    margin: -20px 250px 50px 250px;
     width: 60%;
     height: 200px;
 }
@@ -95,10 +96,10 @@ a{
 
 }
 #rownje img{
-    width: 200px;
+    width: 180px;
     height: 200px;
-    box-shadow: 0 8px 6px -6px black;
-    padding: 10px;
+    padding: 20px;
+    
 }
 #rowdy{
     display: flex;
@@ -106,10 +107,11 @@ a{
     text-align: center;
 }
 #rowdy img{
-    box-shadow: 0 8px 6px -6px black;
-    width: 200px;
+    
+    width: 180px;
     height: 200px;
-    padding: 10px;
+    padding: 20px;
+   
 }
 #rowtre{
     display: flex;
@@ -117,21 +119,11 @@ a{
     text-align: center;
 }
 #rowtre img{
-    box-shadow: 0 8px 6px -6px black;
-    width: 200px;
+ 
+    width: 180px;
     height: 200px;
-    padding: 10px;
-}
-#rowkater{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-#rowkater img{
-    box-shadow: 0 8px 6px -6px black;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
+    padding: 20px;
+   
 }
 
 .fixed-menu{
@@ -158,6 +150,64 @@ a{
 .fixed-menu table tr:hover{
     background-color:#ebb3a1;
 }
+
+/*
+.wrapper{
+    position: relative;
+    margin: 0 auto;
+    padding: 50px 0;
+    clear: both;
+}
+.meny{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #A2D2FF;
+    width: 250px;
+}
+.meny li{
+    position: relative;
+}
+.meny li a{
+    text-align: center;
+    height: 36px;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: #fff;
+}
+.meny li a strong{
+    display: block;
+    text-transform: uppercase;
+    font-family: bignoodletitling;
+    font-size: 15px;
+    letter-spacing: 3px;
+
+}
+.meny li: hover > a{
+    color: aqua;
+}
+.meny li ul,
+.meny li ul li ul{
+    background: #83E377;
+    opacity: 0;
+    visibility: hidden;
+    transition: 300ms;
+    z-index:999;
+    left: 280px;
+    top:0;
+    list-style: none;
+    position: absolute;
+    height: auto;
+    min-width: 250px;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*FUNDI BUQETES */
 
 /*
 

@@ -107,7 +107,7 @@ a{
     min-height: 100vh;
     height: 640px;
     border:1px solid black;
-    background-color: lightcoral;
+    background-color: rgb(166, 241, 166);
     background-image: url(../img/bgProducts4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -161,6 +161,113 @@ background-color: #68b0ab;
 .sixthcircle {
     background-color: #77bfa3;
 }
+#rowdy{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#rowdy img{
+    
+    width: 180px;
+    height: 200px;
+    padding: 20px;
+   
+}
+#rowtre{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#rowtre img{
+ 
+    width: 180px;
+    height: 200px;
+    padding: 20px;
+   
+}
+
+.fixed-menu{
+    box-shadow: 0 8px 6px -6px black;
+    position: fixed;
+    top:250px;
+    left: 50px;
+}
+.fixed-menu table{
+    background-color: #F4BFAD;
+    border-collapse: collapse;
+    width: 150px;
+    text-align: center;
+}
+.fixed-menu table tr td{
+    padding:3px;
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+.fixed-menu table tr td a{
+    text-decoration: none;
+    color: white;
+}
+.fixed-menu table tr:hover{
+    background-color:#ebb3a1;
+}
+
+/*
+.wrapper{
+    position: relative;
+    margin: 0 auto;
+    padding: 50px 0;
+    clear: both;
+}
+.meny{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #A2D2FF;
+    width: 250px;
+}
+.meny li{
+    position: relative;
+}
+.meny li a{
+    text-align: center;
+    height: 36px;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: #fff;
+}
+.meny li a strong{
+    display: block;
+    text-transform: uppercase;
+    font-family: bignoodletitling;
+    font-size: 15px;
+    letter-spacing: 3px;
+
+}
+.meny li: hover > a{
+    color: aqua;
+}
+.meny li ul,
+.meny li ul li ul{
+    background: #83E377;
+    opacity: 0;
+    visibility: hidden;
+    transition: 300ms;
+    z-index:999;
+    left: 280px;
+    top:0;
+    list-style: none;
+    position: absolute;
+    height: auto;
+    min-width: 250px;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*FUNDI BUQETES */
 
 /*
 

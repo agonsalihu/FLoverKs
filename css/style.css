@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,700&display=swap');
 *{
     margin: 0;
     box-sizing: border-box;
@@ -138,10 +138,226 @@ a{
 #content{
     width: 100%;
     min-height: 200px;
-    background-color: #f5f5f5;
-    text-align: center;
-    margin: 5% 0px;
 }
+
+/*---------FILLIMI I PRODUCTS--------*/
+#rrathet{
+    width:100%;
+    min-height: 100vh;
+    height: 640px;
+    border:1px solid black;
+    background-color: rgb(166, 241, 166);
+    background-image: url(../img/bgProducts4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+#rrathet>div{
+    margin: 6.5% auto 5% auto;
+ 
+}
+.rows{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.rows a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: #f5f5f5;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    border: 3px solid #354f52;
+    font-size: larger;
+}
+.vetite{
+    border-radius: 50%;
+    -webkit-box-shadow: 13px 15px 32px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px 15px 32px -6px rgba(0,0,0,0.75);
+    box-shadow: 13px 15px 32px -6px rgba(0,0,0,0.75);
+}
+ .firstcircle {
+background-color: #68b0ab;
+}
+.secondcircle {
+    background-color: #A5A58D;
+}
+.thirdcircle {
+    background-color: #E9C46A;
+    border-radius: 50%;
+}
+
+.fourthcircle {
+    background-color: #B7B7A4;
+}
+.fifthcircle {
+    background-color: #CB997E;
+}
+.sixthcircle {
+    background-color: #77bfa3;
+}
+/*------------FUNDI I PRODUCTS---------*/
+/*===========FILLIMI I ABOUT US===========*/
+#permbajtja{
+    width: 100%;
+    min-height: 500px;
+    background-color: rgb(56, 48, 48);
+    height: 1600px;
+}
+#permbajtja h3{
+    border-top: 2px solid white;
+}
+.firstpart {
+    min-height: 400px;
+    height: 500px;
+}
+.firstpart h2{
+    font-style: oblique;
+    color: white;
+}
+.firstpart h3{
+    padding: 3% 0 1.7% 4%; 
+    text-align: center;
+      
+}
+.firstpart p{
+    padding: 0 20% 0 2%;
+}
+.firstpart img{
+    width:310px;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+    float: left;
+    shape-outside: circle();
+    margin:30px 30px 0 30px;
+}
+/*sec part*/
+.secondpart h3{
+    padding: 4% 20% 0 37%;
+}
+.secondpart ul{
+    padding: 2% 20% 0 37%;
+    list-style-type: square;
+}
+/*third part*/
+.thirdpart h3{
+    text-align: center;
+    padding: 4% 0 1.7% 0;
+}
+.thirdpart p{
+    padding:0 23% 0 23% ;
+}
+/*fourth part*/
+.fourthpart h3{
+    text-align: center;
+    padding: 3% 0 1.7% 4%;
+}
+.fourthpart p{
+    padding:0 23% 0 23%;
+}
+.fourthpart p a{
+    color:rgb(178, 224, 222);
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.fourthpart p a:hover{
+    background-color:  rgb(83, 69, 69);
+}
+.vvv{
+    font-size: 130%;
+    line-height: 1.6;
+    text-align: justify;
+    color: white;
+}
+.parts{
+    padding:4% 7% 0 7%;
+}
+.secondpart.thirdpart.fourthpart{
+    min-height: 200px;
+    height: 300px;
+}
+
+
+/*===========FUNDI I ABOUT US===========*/
+/*BUQETA*/
+.portfolio{
+    width: 100%;
+    min-height: 100vh;
+    background-color: lightslategray;
+    height: 1200px;
+}
+
+.portfolio>div{
+    margin: -20px 250px 50px 250px;
+    width: 60%;
+    height: 200px;
+}
+#rownje{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+#rownje img{
+    width: 180px;
+    height: 200px;
+    padding: 20px;
+    
+}
+#rowdy{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#rowdy img{
+    
+    width: 180px;
+    height: 200px;
+    padding: 20px;
+   
+}
+#rowtre{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#rowtre img{
+ 
+    width: 180px;
+    height: 200px;
+    padding: 20px;
+   
+}
+
+.fixed-menu{
+    box-shadow: 0 8px 6px -6px black;
+    position: fixed;
+    top:250px;
+    left: 50px;
+}
+.fixed-menu table{
+    background-color: #F4BFAD;
+    border-collapse: collapse;
+    width: 150px;
+    text-align: center;
+}
+.fixed-menu table tr td{
+    padding:3px;
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+.fixed-menu table tr td a{
+    text-decoration: none;
+    color: white;
+}
+.fixed-menu table tr:hover{
+    background-color:#ebb3a1;
+}
+/*FUNDI BUQETES */
 
 
 

@@ -22,7 +22,7 @@ body{
     width: 100%;
     padding: 1% 0%;
     min-height: 100px;
-    background-color: #2D4739;
+    background-color: #00121b;
     color: black;
 }
 
@@ -120,7 +120,13 @@ a{
  .firstcircle {
 background-color: #68b0ab;
 }
+.firstcircle a:hover{
+    background-color: #68b0ab;
+}
 .secondcircle {
+    background-color: #A5A58D;
+}
+.secondcircle a:hover {
     background-color: #A5A58D;
 }
 .thirdcircle {
@@ -142,11 +148,11 @@ background-color: #68b0ab;
 #permbajtja{
     width: 100%;
     min-height: 500px;
-    background-color: rgb(56, 48, 48);
+    background-color:#f5f3f4;
     height: 1600px;
 }
 #permbajtja h3{
-    border-top: 2px solid white;
+    border-top: 2px solid black;
 }
 .firstpart {
     min-height: 400px;
@@ -154,7 +160,7 @@ background-color: #68b0ab;
 }
 .firstpart h2{
     font-style: oblique;
-    color: white;
+    color: black;
 }
 .firstpart h3{
     padding: 3% 0 1.7% 4%; 
@@ -167,10 +173,13 @@ background-color: #68b0ab;
 .firstpart img{
     width:310px;
     border-radius: 50%;
-    border: 3px solid whitesmoke;
+    border: 3px solid black;
     float: left;
     shape-outside: circle();
     margin:30px 30px 0 30px;
+    -webkit-box-shadow: 13px 15px 32px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px 15px 32px -6px rgba(0,0,0,0.75);
+    box-shadow: 13px 15px 32px -6px rgba(0,0,0,0.75);
 }
 /*sec part*/
 .secondpart h3{
@@ -200,6 +209,7 @@ background-color: #68b0ab;
     color:rgb(178, 224, 222);
     text-transform: uppercase;
     text-decoration: underline;
+    
 }
 .fourthpart p a:hover{
     background-color:  rgb(83, 69, 69);
@@ -208,7 +218,7 @@ background-color: #68b0ab;
     font-size: 130%;
     line-height: 1.6;
     text-align: justify;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .parts{
     padding:4% 7% 0 7%;

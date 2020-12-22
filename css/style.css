@@ -75,7 +75,7 @@ a{
     width: 100%;
     min-height: 200px;
 }
-/*BUQETA*/
+
 .portfolio{
     width: 100%;
     min-height: 100vh;
@@ -93,143 +93,19 @@ a{
     display: flex;
     justify-content: space-between;
     text-align: center;
-
+    margin-bottom: 80px;
 }
 #rownje img, #rowdy img, #rowtre img{
     margin-top: 40px;
     width: 180px;
     height: 200px;
     padding: 20px;
-    -webkit-box-shadow: 0 28px 16px -26px #2D4739;
-    -moz-box-shadow: 0 28px 16px -26px #2D4739;
-    box-shadow: 0 28px 16px -26px #2D4739;
-    
-}
-
-/*
-.field-menu{
-    box-shadow: 0 8px 6px -6px black;
-    position: fixed;
-    top:250px;
-    left: 50px;
-}
-.fixed-menu table{
-    background-color:#2D4739;
-    border-collapse: collapse;
-    width: 160px;
-    height: 100px;
-    text-align: center;
-}
-.fixed-menu table tr td{
-    padding:3px;
-    border: 1px black solid;
-    border-collapse: collapse;
-}
-.fixed-menu table tr td a{
-    text-decoration: none;
-    color: white;
-}
-.fixed-menu table tr:hover{
-    background-color:#2d6a4f;
-}
-
-/*
-.wrapper{
-    position: relative;
-    margin: 0 auto;
-    padding: 50px 0;
-    clear: both;
-}
-.meny{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background: #A2D2FF;
-    width: 250px;
-}
-.meny li{
-    position: relative;
-}
-.meny li a{
-    text-align: center;
-    height: 36px;
-    position: relative;
-    border-bottom: 1px solid #ddd;
-    display: block;
-    text-decoration: none;
-    padding: 12px 20px;
-    color: #fff;
-}
-.meny li a strong{
-    display: block;
-    text-transform: uppercase;
-    font-family: bignoodletitling;
-    font-size: 15px;
-    letter-spacing: 3px;
-
-}
-.meny li: hover > a{
-    color: aqua;
-}
-.meny li ul,
-.meny li ul li ul{
-    background: #83E377;
-    opacity: 0;
-    visibility: hidden;
-    transition: 300ms;
-    z-index:999;
-    left: 280px;
-    top:0;
-    list-style: none;
-    position: absolute;
-    height: auto;
-    min-width: 250px;
-    padding: 0;
-    margin: 0;
+    -webkit-box-shadow: 0 28px 16px -26px  #173324;
+    -moz-box-shadow: 0 28px 16px -26px #173324;
+    box-shadow: 15px 32px 16px -20px#173324;
+    object-fit: cover;
+    border-radius: 20%;    
 }
 
 
-/*FUNDI BUQETES */
 
-/*
-
-#footer{
-    width: 100%;
-    background-color: black;
-}
-
-.foot{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin: auto;
-    padding: 20px 0px 20px 0px;
-}
-
-.footer-logo img{
-    width: 40%;
-}
-
-.contact{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin: auto;
-    width: 100%;
-}
-
-.contact i {
-    padding: 0.75rem 1.5rem 1rem;
-    margin: auto;
-}
-
-.bottom-footer{
-    width: 100%;
-    background-color: #220901;
-    text-align: center;
-    margin: 0;
-    padding:1% 0px;
-    color: whitesmoke;
-}
-
-*/

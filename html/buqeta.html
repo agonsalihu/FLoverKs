@@ -1,6 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style type="text/css">
+        *{padding: 0; margin: 0;}
+        a{text-decoration: none;}
+        li{list-style: none;}
+        .main-nav{width: 200px;background: #2D4739;position: fixed;top: 42%;margin-left: 2%;}
+        .main-nav a{
+            text-transform: uppercase;
+            letter-spacing: .2em;
+            color: aliceblue;
+            display: block;
+            padding: 3px 0 3px 8px;
+            border-bottom: 1px dotted gray;
+        }
+        .main-nav a:hover{background-color:#568259;}
+        .main-nav-ul ul{display: none;background-color: #343a40;}
+        .main-nav-ul li:hover ul{display: block;}
+    
+        .main-nav-ul ul a:before{
+            content: '\203A';
+            margin-right: 20px;
+        }
+    
+        .main-nav .sub-arrow:after{
+            content: '\203A';
+            float: right;
+            margin-right: 20px;
+            transform: rotate(90deg);
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+    
+        }
+        .main-nav li:hover .sub-arrow:after{
+            content: '\2039';
+        }
+        </style>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name="keywords" content="Flower, Gjilan, Kosov, Prishtin, Prishtine, Lule, Dyqan">
@@ -34,30 +69,49 @@
     <main>
         <div class="portfolio">
             <div id="rownje">
-                <div class="fotonje"> <a href="../img/foto15.jpg" target="_blank"><img src="../img/foto15.jpg" alt=""></a> </div>
-                <div class="fotody"><a href="../img/foto4.jpg" target="_blank"><img src="../img/foto4.jpg" alt=""></a></div>
-                <div class="fototre"> <a href="../img/B.jpg" target="_blank"><img src="../img/B.jpg"alt=""></a></div>
+                <div class="fotonje"> <a href="../img/foto15.jpg" target="_blank"><img src="../img/foto15.jpg" alt="Buqete me lule"></a> </div>
+                <div class="fotody"><a href="../img/foto4.jpg" target="_blank"><img src="../img/foto4.jpg" alt="Buqete me lule"></a></div>
+                <div class="fototre"> <a href="../img/B.jpg" target="_blank"><img src="../img/B.jpg"alt="Buqete me lule"></a></div>
             </div>
             <div id="rowdy">
-                <div class="fotonje">  <a href="../img/foto16.jpg" target="_blank"><img src="../img/foto16.jpg" alt=""></a> </div>
-                <div class="fotody"> <a href="../img/foto5.jpg" target="_blank"><img src="../img/foto5.jpg" alt=""></a></div>
-                <div class="fototre"><a href="../img/foto6.jpg" target="_blank"><img src="../img/foto6.jpg" alt=""></a></div>
+                <div class="fotonje">  <a href="../img/foto16.jpg" target="_blank"><img src="../img/foto16.jpg" alt="Buqete me lule"></a> </div>
+                <div class="fotody"> <a href="../img/foto5.jpg" target="_blank"><img src="../img/foto5.jpg" alt="Buqete me lule"></a></div>
+                <div class="fototre"><a href="../img/foto6.jpg" target="_blank"><img src="../img/foto6.jpg" alt="Buqete me lule"></a></div>
             </div>
             <div id="rowtre">
-                <div class="fotonje"><a href="../img/C.jpg" target="_blank"> <img src="../img/C.jpg" alt=""></a></div>
-                <div class="fotody"><a href="../img/foto8.jpg" target="_blank"><img src="../img/foto8.jpg" alt=""></a></div>
-                <div class="fototre"><a href="../img/foto13.jpg" target="_blank"><img src="../img/foto13.jpg" alt=""></a></div>
+                <div class="fotonje"><a href="../img/C.jpg" target="_blank"> <img src="../img/C.jpg" alt="Buqete me lule"></a></div>
+                <div class="fotody"><a href="../img/foto8.jpg" target="_blank"><img src="../img/foto8.jpg" alt="Buqete me lule"></a></div>
+                <div class="fototre"><a href="../img/foto13.jpg" target="_blank"><img src="../img/foto13.jpg" alt="Buqete me lule"></a></div>
             </div>
         </div>
-
-        <div class="fixed-menu">
-            <table>
-                <tr><td><a href="#">Sipas Cmimit</a></td></tr>
-                <tr><td><a href="#">Sipas Llojit</a></td></tr>
-                <tr><td><a href="#">Sipas Ngjyres</a></td></tr>
-            </table>
-        </div>
     </main>
+    <nav class="main-nav">
+        <ul class="main-nav-ul">
+            <li><a href="#">Sipas Ngjyres<span class="sub-arrow"></span></a>
+                <ul>
+                    <li><a href="#">E bardhe</a></li>
+                    <li><a href="#">E kuqe</a></li>
+                    <li><a href="#">E kalter</a></li>
+                </ul>
+                </li>
+            <li><a href="#">Sipas Cmimit<span class="sub-arrow"></span></a>
+            <ul>
+                <li><a href="#">10€</a></li>
+                <li><a href="#">15€</a></li>
+                <li><a href="#">20€</a></li>
+                <li><a href="#">Mbi 20€</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Sipas Llojit<span class="sub-arrow"></span></a>
+            <ul>
+                <li><a href="#">Krizantema</a></li>
+                <li><a href="#">Trendafila</a></li>
+                <li><a href="#">Gerberka</a></li>
+                <li><a href="#">Lule dielli</a></li>
+            </ul>
+            </li>
+        </ul>
+    </nav>
 
     <script src='../js/main.js'>
     

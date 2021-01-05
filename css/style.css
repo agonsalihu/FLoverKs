@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Indie+Flower&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -133,11 +136,15 @@ a{
 
 
 /****************CONTENT*****************/
-
-
 #content{
     width: 100%;
     min-height: 400px;
+    font-family: 'Kanit', sans-serif;
+    font-size: larger;
+    letter-spacing: 1px;
+    background-image: url("../img/ppp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contentclasses{
     display: flex;
@@ -147,16 +154,26 @@ a{
 }
 #content img{
     border-radius: 50%;
-    width: 15%;
-    margin:;
+    width: 26%;
+    border: 4px double #ff7b08;
+}
+.asd img{
+    margin-right: 2%;
+}
+.dsa img{
+    margin-left: 2%;
 }
 .thirddivclass{
     text-align: center;
-    padding: 8% 30% 10% 30%;
+    padding: 10% 30% 10% 30%;
 }
 .thirddivclass h3{
 text-align: center;
-    padding-right: 15%;
+padding-right: 30%;
+padding-bottom: 5%;
+}
+.thirddivclass ul{
+    list-style-type: square;
 }
 /***************CONTENT END************/
 
@@ -174,7 +191,6 @@ text-align: center;
 }
 #rrathet>div{
     margin: 6.5% auto 5% auto;
- 
 }
 .rows{
     display: flex;
@@ -182,7 +198,6 @@ text-align: center;
     justify-content: space-evenly;
 }
 .rows a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     text-align: center;
     color: #f5f5f5;
@@ -192,7 +207,10 @@ text-align: center;
     display: grid;
     place-items: center;
     border: 3px solid #354f52;
-    font-size: larger;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 3px;
 }
 .vetite{
     border-radius: 50%;
@@ -200,40 +218,41 @@ text-align: center;
     -moz-box-shadow: 13px 15px 32px -6px rgba(0,0,0,0.75);
     box-shadow: 13px 15px 32px -6px rgba(0,0,0,0.75);
 }
- .firstcircle {
+ .firstcircle{
 background-color: #68b0ab;
 }
 .firstcircle a:hover{
-    background-color: #68b0ab;
+background-color: #40807b;
 }
-.secondcircle {
+.secondcircle{
     background-color: #A5A58D;
 }
-.secondcircle a:hover {
-    background-color: #A5A58D;
+.secondcircle a:hover{
+    background-color: #888875;
 }
-.thirdcircle {
+.thirdcircle{
     background-color: #E9C46A;
-    border-radius: 50%;
 }
-.portfolio{
-    width: 100%;
-    min-height: 100vh;
-    background-color:#adc698 ;
-    height: 850px;
+.thirdcircle a:hover{
+    background-color: #b49546;
 }
-
-.portfolio>div{
-    margin: -20px 250px 50px 250px;
-    width: 60%;
-    height: 200px;
-
+.fourthcircle{
+    background-color: #c2c2ad;
 }
-.fifthcircle {
+.fourthcircle a:hover{
+    background-color: #9e9e8d;
+}
+.fifthcircle{
     background-color: #CB997E;
 }
-.sixthcircle {
+.fifthcircle a:hover{
+    background-color: #a17a65;
+}
+.sixthcircle{
     background-color: #77bfa3;
+}
+.sixthcircle a:hover{
+    background-color: #629783;
 }
 /*------------FUNDI I PRODUCTS---------*/
 /*===========FILLIMI I ABOUT US===========*/
@@ -307,7 +326,7 @@ background-color: #68b0ab;
     background-color:  rgb(83, 69, 69);
 }
 .vvv{
-    font-size: 130%;
+    font-size: 120%;
     line-height: 1.6;
     text-align: justify;
     color: rgb(0, 0, 0);
@@ -326,14 +345,15 @@ background-color: #68b0ab;
 .portfolio{
     width: 100%;
     min-height: 100vh;
-    background-color: lightslategray;
-    height: 1200px;
+    background-color:#adc698 ;
+    height: 850px;
 }
 
 .portfolio>div{
     margin: -20px 250px 50px 250px;
     width: 60%;
     height: 200px;
+
 }
 #rownje, #rowdy, #rowtre{
     display: flex;

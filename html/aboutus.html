@@ -39,42 +39,66 @@
     </div>
     <main>
       <div id="permbajtja">
-        <div class="firstpart parts">
-          <h2>ABOUT US</h2>
-          <h3 class="vvv">About FLoverKs</h3>
-          <img src="../img/lokali2.jpg" />
-          <p class="vvv">
-            FLover has been proudly serving costumers for 3 years now. We are
-            two girls who are committed to offering only the finest floral
-            arrangements and gifts. Because all of our costumers are important,
-            we are dedicated to making your experience a pleasant one. This is
-            why we always go the extra mile to make your floral gift as perfect
-            as we can. With a wide variety of colors, sizes, and seasonal
-            themes, you can buy flowers and gifts for everyone. With same-day
-            delivery, we're also your source for last minute gifts, too. Giving
-            your gift that special touch.
-          </p>
-        </div>
-        <div class="secondpart parts">
-          <h3 class="vvv">The services we offer are:</h3>
-          <ul class="vvv">
-            <li>Gift and hand-tied Bouqetes.</li>
-            <li>Arrangements for weddings and promos.</li>
-            <li>Corporate events.</li>
-            <li>Different gifts including handmade one.</li>
-            <li>Free floral consultations.</li>
-            <li>Flower delivery.</li>
-          </ul>
-        </div>
-        <div class="thirdpart parts">
-          <h3 class="vvv">Shop Hours</h3>
-          <p class="vvv">
-            Our shop is currently open from 9:00am to 6:00pm Monday through
-            Friday and from 09:00am to 4:00pm on Saturday. We are closed on
-            Sundays. To help assure on-time delivery during the busy holiday
-            season, place your order at least 1 week prior to the following
-            holidays: Mother's Day and Valentine's Day.
-          </p>
+        <h2 class="container contact">CONACT US</h2>
+        <div class="container forma">
+          <form
+            action="#"
+            method="post"
+            name="myForm"
+            onsubmit="return(validate());"
+          >
+            <label for="name">Name:</label><br />
+            <input
+              type="text"
+              name="name"
+              placeholder="Full Name"
+              id="name"
+              data-validation="required length" data-validation-length="min4"
+              data-validation-regexp=""
+
+            /><br />
+
+            <label for="email">Email:</label><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              data-validation="required email"
+            /><br />
+
+            <label for="gender">Gender:</label><br />
+
+            <input type="radio" name="gender" id="female" value="Female" />
+            <label for="female">Female</label>
+
+            <input type="radio" name="gender" id="male" value="Male" />
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="other" value="Other" />
+            <label for="other">Other</label><br />
+
+            <label for="phone">Phone Number:</label><br />
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="Phone Number"
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+            /><br />
+
+            <label for="message">Message:</label><br />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Your Message"
+            ></textarea
+            ><br />
+
+            <input type="submit" value="Submit" />
+          </form>
         </div>
         <div class="fourthpart parts">
           <h3 class="vvv">Location and Contact info</h3>
@@ -93,7 +117,6 @@
             >
           </p>
         </div>
-        
       </div>
       <div class="footer">
         <div class="inner-footer">
@@ -130,7 +153,6 @@
             <h3>Contact us</h3>
             <div class="border1"></div>
             <ul>
-              <!--<li><i class="fa fa-map-marker" aria-hidden="true"></i> Rr.Bulevardi I Pavarsise, Gjilan</li>-->
               <li>
                 <i class="fa fa-phone" aria-hidden="true"></i>+383 45 699 919
               </li>
@@ -145,7 +167,13 @@
         <div class="footer-bottom">Copyright &copy; FLoverKs 2020.</div>
       </div>
     </main>
-
-    <script src="../js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.79/jquery.form-validator.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $.validate({
+        modules: "date, security",
+        errorMessageClass: "error",
+      });
+    </script>
   </body>
 </html>

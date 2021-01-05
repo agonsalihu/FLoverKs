@@ -75,37 +75,183 @@ a{
     width: 100%;
     min-height: 200px;
 }
-
 .portfolio{
     width: 100%;
     min-height: 100vh;
-    background-color:#adc698 ;
-    height: 850px;
-}
-
-.portfolio>div{
-    margin: -20px 250px 50px 250px;
-    width: 60%;
-    height: 200px;
-
+    background-image: url("../img/ppp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 6875%;
+    padding: 5% 0 4% 0;
 }
 #rownje, #rowdy, #rowtre{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 10%;
 }
 #rownje img, #rowdy img, #rowtre img{
-    margin-top: 40px;
-    width: 180px;
-    height: 200px;
-    padding: 20px;
+    margin: 20% 0 0 30%;
+    width: 220px;
+    height: 240px;
     -webkit-box-shadow: 0 28px 16px -26px  #173324;
     -moz-box-shadow: 0 28px 16px -26px #173324;
     box-shadow: 15px 32px 16px -20px#173324;
     object-fit: cover;
-    border-radius: 20%;    
+    border-radius: 20%;   
+}
+*{padding: 0; margin: 0;}
+    a{text-decoration: none;}
+    li{list-style: none;}
+    .main-nav{width: 200px;background: #2D4739;position: fixed;top: 42%;margin-left: 2%;}
+    .main-nav a{
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        color: aliceblue;
+        display: block;
+        padding: 3px 0 3px 8px;
+        border-bottom: 1px dotted gray;
+    }
+    .main-nav a:hover{background-color:#568259;}
+    .main-nav-ul ul{display: none;background-color: #343a40;}
+    .main-nav-ul li:hover ul{display: block;}
+
+    .main-nav-ul ul a:before{
+        content: '\203A';
+        margin-right: 20px;
+    }
+
+    .main-nav .sub-arrow:after{
+        content: '\203A';
+        float: right;
+        margin-right: 20px;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+
+    }
+    .main-nav li:hover .sub-arrow:after{
+        content: '\2039';
+    }
+    body {font-family: Arial, Helvetica, sans-serif;}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color:#2D4739;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-transform: uppercase;
+
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #4f000b;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 20px 0 10px 0;
+  position: relative;
 }
 
 
 
+.container {
+  padding: 8px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 0;
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 40%; 
+}
+
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+/*FUNDI BUQETES */

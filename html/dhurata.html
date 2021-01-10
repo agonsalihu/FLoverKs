@@ -1,12 +1,45 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-    
+    <style type="text/css">
+    *{padding: 0; margin: 0;}
+    a{text-decoration: none;}
+    li{list-style: none;}
+    .main-nav{width: 200px;background: #2D4739;position: fixed;top: 42%;margin-left: 2%;}
+    .main-nav a{
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        color: aliceblue;
+        display: block;
+        padding: 3px 0 3px 8px;
+        border-bottom: 1px dotted gray;
+    }
+    .main-nav a:hover{background-color:#568259;}
+    .main-nav-ul ul{display: none;background-color: #343a40;}
+    .main-nav-ul li:hover ul{display: block;}
+
+    .main-nav-ul ul a:before{
+        content: '\203A';
+        margin-right: 20px;
+    }
+
+    .main-nav .sub-arrow:after{
+        content: '\203A';
+        float: right;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+
+    }
+    .main-nav li:hover .sub-arrow:after{
+        content: '\2039';
+    }
+    </style>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name="keywords" content="Flower, Gjilan, Kosov, Prishtin, Prishtine, Lule, Dyqan">
     <meta name="description" content="Buy flowers online">
-    <meta http-equiv="refresh" content="15">
     <title>Flower-Ks</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../css/style.css'>
@@ -18,65 +51,107 @@
     <div id="header">
         <div class="container flexhead">
             <div class="logo">
-                <img src="../img/logo.png" alt="Flover Logo" >
+                <img src="../img/floverlogo.png" alt="Flover Logo" >
             </div>
             <div class="menu">
                 <a href="index.html">Home</a>
                 <a href="products.html">Products</a>
-                <a href="gallery.html">Gallery</a>
                 <a href="aboutUs.html">About Us</a>	
-                
+                <a href="signin.html"  target="_blank">Sign In</a>
+                <a href="signup.html"  target="_blank">Sign Up</a>
             </div>
             
         </div>
     </div>
     <main>
-        <div class="portfolio">
-            <div id="rownje">
-                <div class="fotonje"> <a href="../img/s1.jpg" target="_blank"><img src="../img/s1.jpg" alt="Dhurata"></a> </div>
-                <div class="fotody"><a href="../img/s11.jpg" target="_blank"><img src="../img/s11.jpg" alt="Dhurata"></a></div>
-                <div class="fototre"> <a href="../img/s3.jpg" target="_blank"><img src="../img/s3.jpg"alt="Dhurata"></a></div>
-            </div>
-            <div id="rowdy">
-                <div class="fotonje">  <a href="../img/s4.jpg" target="_blank"><img src="../img/s4.jpg" alt="Dhurata"></a> </div>
-                <div class="fotody"> <a href="../img/s5.jpg" target="_blank"><img src="../img/s5.jpg" alt="Dhurata"></a></div>
-                <div class="fototre"><a href="../img/s6.jpg" target="_blank"><img src="../img/s6.jpg" alt="Dhurata"></a></div>
-            </div>
-            <div id="rowtre">
-                <div class="fotonje"><a href="../img/s7.jpg" target="_blank"> <img src="../img/s7.jpg" alt="Dhurata"></a></div>
-                <div class="fotody"><a href="../img/s8.jpg" target="_blank"><img src="../img/s8.jpg" alt="Dhurata"></a></div>
-                <div class="fototre"><a href="../img/s9.jpg" target="_blank"><img src="../img/s9.jpg" alt="Dhurata"></a></div>
-            </div>
+      <div class="portfolio">
+        <div id="rownje">
+            <div class="fotonje"> <a href="../img/s1.jpg" target="_blank"><img src="../img/s1.jpg" alt="Dhurata"></a> </div>
+            <div class="fotody"><a href="../img/s11.jpg" target="_blank"><img src="../img/s11.jpg" alt="Dhurata"></a></div>
+            <div class="fototre"> <a href="../img/s3.jpg" target="_blank"><img src="../img/s3.jpg"alt="Dhurata"></a></div>
         </div>
-        
-    </main>
-    <nav class="main-nav">
-        <ul class="main-nav-ul">
-            <li><a href="#">Sipas Ngjyres<span class="sub-arrow"></span></a>
+        <div id="rowdy">
+            <div class="fotonje">  <a href="../img/s4.jpg" target="_blank"><img src="../img/s4.jpg" alt="Dhurata"></a> </div>
+            <div class="fotody"> <a href="../img/s5.jpg" target="_blank"><img src="../img/s5.jpg" alt="Dhurata"></a></div>
+            <div class="fototre"><a href="../img/s6.jpg" target="_blank"><img src="../img/s6.jpg" alt="Dhurata"></a></div>
+        </div>
+        <div id="rowtre">
+            <div class="fotonje"><a href="../img/s7.jpg" target="_blank"> <img src="../img/s7.jpg" alt="Dhurata"></a></div>
+            <div class="fotody"><a href="../img/s8.jpg" target="_blank"><img src="../img/s8.jpg" alt="Dhurata"></a></div>
+            <div class="fototre"><a href="../img/s9.jpg" target="_blank"><img src="../img/s9.jpg" alt="Dhurata"></a></div>
+        </div>
+    </div>
+  </main>
+        <nav class="main-nav">
+            <ul class="main-nav-ul">
+                <li><a href="#">Sipas Ngjyres<span class="sub-arrow"></span></a>
+                    <ul>
+                        <li><a href="#">E bardhe</a></li>
+                        <li><a href="#">E kuqe</a></li>
+                        <li><a href="#">E kalter</a></li>
+                    </ul>
+                    </li>
+                <li><a href="#">Sipas Cmimit<span class="sub-arrow"></span></a>
                 <ul>
-                    <li><a href="#">E bardhe</a></li>
-                    <li><a href="#">E kuqe</a></li>
-                    <li><a href="#">E kalter</a></li>
+                    <li><a href="#">10€</a></li>
+                    <li><a href="#">15€</a></li>
+                    <li><a href="#">20€</a></li>
+                    <li><a href="#">Mbi 20€</a></li>
                 </ul>
                 </li>
-            <li><a href="#">Sipas Cmimit<span class="sub-arrow"></span></a>
-            <ul>
-                <li><a href="#">10€</a></li>
-                <li><a href="#">15€</a></li>
-                <li><a href="#">20€</a></li>
-                <li><a href="#">Mbi 20€</a></li>
+                <li><a href="#">Sipas Llojit<span class="sub-arrow"></span></a>
+                <ul>
+                    <li><a href="#">Krizantema</a></li>
+                    <li><a href="#">Trendafila</a></li>
+                    <li><a href="#">Gerberka</a></li>
+                    <li><a href="#">Lule dielli</a></li>
+                </ul>
+                </li>
             </ul>
-            </li>
-            <li><a href="#">Sipas Llojit<span class="sub-arrow"></span></a>
-            <ul>
-                <li><a href="#">Krizantema</a></li>
-                <li><a href="#">Trendafila</a></li>
-                <li><a href="#">Gerberka</a></li>
-                <li><a href="#">Lule dielli</a></li>
-            </ul>
-            </li>
-        </ul>
-    </nav>
+        </nav>
+        <div class="footer">
+            <div class="inner-footer">
+              <div class="footer-items" style="margin-left: 0px; padding-left: 0px">
+                <img
+                  src="../img/floverlogo.png"
+                  alt="FLoverLogo"
+                  style="width: 80%"
+                />
+              </div>
+              <div class="footer-items">
+                <h3>Social Links</h3>
+                <div class="border1"></div>
+                <ul class="social-media">
+                  <li>
+                    <a href="#"><i class="fab fa-instagram" style="font-size: 25px;"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook" style="font-size: 25px;"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter" style="font-size: 25px;"></i></a>
+                  </li>
+                </ul>
+              </div>
+      
+              <div class="footer-items">
+                <h3>Contact us</h3>
+                <div class="border1"></div>
+                <ul>
+                  <!--<li><i class="fa fa-map-marker" aria-hidden="true"></i> Rr.Bulevardi I Pavarsise, Gjilan</li>-->
+                  <li>
+                    <i class="fa fa-phone" aria-hidden="true"></i>+383 45 699 919
+                  </li>
+                  <li>
+                    <i class="fa fa-envelope" aria-hidden="true"></i
+                    >drilona.korca@gmail.com
+                  </li>
+                </ul>
+              </div>
+            </div>
+      
+            <div class="footer-bottom">Copyright &copy; FLoverKs 2020.</div>
+          </div>
 
     <script src='../js/main.js'>
     

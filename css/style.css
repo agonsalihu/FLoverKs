@@ -114,18 +114,7 @@ a {
   background-color: #717171;
 }
 
-.portfolio > div {
-  margin: -20px 250px 50px 250px;
-  width: 60%;
-  height: 200px;
-}
-#rownje,
-#rowdy,
-#rowtre {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-}
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -286,49 +275,32 @@ background-color: #40807b;
     width: 100%;
     min-height: 500px;
     background-color:#f5f3f4;
-    height: 1600px;
+    height: 1200px;
 }
 #permbajtja h3{
     border-top: 2px solid black;
 }
-
-/*sec part*/
-.secondpart h3 {
-  padding: 4% 20% 0 37%;
-}
-.secondpart ul {
-  padding: 2% 20% 0 37%;
-  list-style-type: square;
-}
-/*third part*/
-.thirdpart h3 {
-  text-align: center;
-  padding: 4% 0 1.7% 0;
-}
-.thirdpart p {
-  padding: 0 23% 0 23%;
-}
 /*fourth part*/
 .fourthpart h3 {
   text-align: center;
-  padding: 3% 0 1.7% 4%;
+  padding: 6% 0 4% 4%;
 }
 .fourthpart p {
   padding: 0 23% 0 23%;
 }
 .fourthpart p a {
-  color: rgb(178, 224, 222);
+  color: rgb(108, 122, 122);
   text-transform: uppercase;
   text-decoration: underline;
 }
 .fourthpart p a:hover {
-  background-color: rgb(83, 69, 69);
+    text-decoration: none;
 }
 .vvv {
   font-size: 130%;
   line-height: 1.6;
   text-align: justify;
-  color: white;
+  color: black;
 }
 .parts {
   padding: 4% 7% 0 7%;
